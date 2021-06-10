@@ -35,12 +35,25 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        
+        type.db         // worth 10 points
+type.max        // worth 20 points
+type.steve      // worth 30 points
+type.grace      // worth 40 points
+type.kennedi    // worth 50 points
+        /*
+createCollectable(type, x, y, gravity, bounce);
+
+type: The type of the collectable. 
+x: The x coordineate for the collectable.
+y: The y coordineate for the collectable.
+gravity: OPTIONAL The gravitational pull on the collectable.
+bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
+*/
         // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
-        
-        
-        
+        createCollectable(type.max, 200, 170, 6, 0.7);
+        createCollectable(type.steve, 500, 270, 6, 0.7);
+        createCollectable(type.grace, 375, 500,10 , 0.7);
+        createCollectable(type.kennedi, 375, 100,10 , 0.7);
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
