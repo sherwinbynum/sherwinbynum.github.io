@@ -15,6 +15,7 @@
             _run = createState('run'),
             _duck = createDuckState('duck'),
             _idle = createState('idle'),
+            _flyingJump = createFlyingJumpState('flyingJump'),
             _stop = createStopState('stop'),
             _fire = createFireState('fire'),
             _die = createDieState('die'),
@@ -28,7 +29,8 @@
                 run: run,
                 stop: stop,
                 fire: fire,
-                jump: jump,
+                jump: doNothing,
+                flyingJump: flyingJump,
                 die: die,
                 onKeyUp: stop,
                 onCursorLeft: run,
@@ -118,7 +120,7 @@
             return state;
         }
         
-        function createJumpState(name) {
+        function createFlyingJumpState(name) {
             let 
                 xOffset = 17,
                 yOffset = 9,

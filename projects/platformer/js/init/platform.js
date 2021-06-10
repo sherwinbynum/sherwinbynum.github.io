@@ -28,14 +28,8 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        createCollectable(type.steve, 200, 170, 6, 0.7);
+        
         /*
-        type.db         // worth 10 points
-type.max        // worth 20 points
-type.steve      // worth 30 points
-type.grace      // worth 40 points
-type.kennedi    // worth 50 points
-
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
          * bottom of the game.
