@@ -50,7 +50,7 @@ scaleY: OPTIONAL The scale factor on the y-axis, this value will stretch the pla
         // example:
         createPlatform(400, 250);
         createPlatform(50, 500, 0.9); 
-        createPlatform(100, 300, 0.5);
+        createPlatform(75, 300, 0.9);
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
