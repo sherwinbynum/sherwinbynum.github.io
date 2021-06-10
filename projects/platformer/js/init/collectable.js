@@ -50,9 +50,9 @@ gravity: OPTIONAL The gravitational pull on the collectable.
 bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
 */
         // example: 
-        createCollectable(type.max, 200, 170, 6, 0.7);
+        createCollectable(type.grace, 200, 170, 6, 0.7);
         createCollectable(type.steve, 500, 270, 6, 0.7);
-        createCollectable(type.grace, 375, 500,10 , 0.7);
+        createCollectable(type.max, 375, 500,10 , 0.7);
         createCollectable(type.kennedi, 375, 100,10 , 0.7);
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

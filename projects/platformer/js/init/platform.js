@@ -39,7 +39,7 @@ scaleY: OPTIONAL The scale factor on the y-axis, this value will stretch the pla
         createPlatform(400, 460);           // normal platform
         createPlatform(300, 200, 0.3)       // small horizontal platform (30% the normal width)
         createPlatform(300, 600, 0.3, 0.9)   // small horizontal platform (30% the normal width)
-        createPlatform(300, 400, 0.7, 0.9)   // small horizontal platform (30% the normal width)
+        createPlatform(200, 400, 0.7, 0.9)   // small horizontal platform (30% the normal width)
         /*
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
@@ -50,7 +50,7 @@ scaleY: OPTIONAL The scale factor on the y-axis, this value will stretch the pla
         // example:
         createPlatform(400, 250);
         createPlatform(50, 500, 0.9); 
-        createPlatform(55, 275, 0.5);
+        createPlatform(100, 300, 0.5);
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
