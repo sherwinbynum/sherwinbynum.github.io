@@ -64,7 +64,7 @@
 
 			/* Your Variable Declaration HERE */
 			var positionX = 0; 
-			var points = 1;
+			var points = 0;
 			var speed = 10;
 
 
@@ -75,17 +75,9 @@
 			turn it around! 
 			*/
 			function update() {
-				if (conditionIsTrue){
-				/* IF positionX is greater than boardWidth:
-                Change Direction of the Box */
-				
-				/*IF positionX is less than the MINIMUM X-Coordinate of the screen:
-                change speed to be positive*/
-			}
-
 				/* Your Code to Increase positionX by 10 HERE*/
 				positionX = positionX + 10;
-				moveBoxTo=(positionX);
+				moveBoxTo(positionX);
              
 			
 			};
@@ -97,14 +89,12 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				var positionX = 0;
-				var speed = 3; 
-
-				 
-				// your code to increase the points variable by 1
+				 positionX = 0;
 				
+				 // your code to increase the points variable by 1
+				 
 				 changeBoxText(points);
-
+				 positionX = positionX + 10;
 
 			};
 		})();
