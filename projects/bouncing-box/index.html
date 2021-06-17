@@ -64,7 +64,7 @@
 
 			/* Your Variable Declaration HERE */
 			var positionX = 0; 
-			var points = 0;
+			var points = 0; 
 			var speed = 10;
 
 
@@ -77,7 +77,8 @@
 			function update() {
 				/* Your Code to Increase positionX by 10 HERE*/
 				positionX = positionX + 10;
-				moveBoxTo(positionX);
+				moveBoxTo(positionX); 
+				speed = speed + 10;
              
 			
 			};
@@ -92,11 +93,9 @@
 				 positionX = 0;
 				
 				 // your code to increase the points variable by 1
-				 
+				points = points + 1;
 				 changeBoxText(points);
-				 positionX = positionX + 10;
 				 speed = speed + 3;
-
 			};
 		})();
 	</script>
