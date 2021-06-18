@@ -24,8 +24,9 @@ var init = function (window) {
         var circles = [];	// variable to store all circles in one Array
 
         // TODO 2 : Create a function that draws a circle
-        drawCircle(parameters);{
-         // Code to draw a circle
+        drawCircle(){
+        
+            // Code to draw a circle
         circle = draw.randomCircleInArea(canvas, true, true, '#999', 2);
         physikz.addRandomVelocity(circle, canvas);
         view.addChild(circle);
@@ -35,11 +36,11 @@ var init = function (window) {
         // TODO 3 / 7 : Call the drawCircle() function 
         
         /* Your Function Calls HERE */
-       drawCircle(1);
-       drawCircle(1);
-       drawCircle(1);
-       drawCircle(1);
-       drawCircle(1);
+       drawCircle();
+       drawCircle();
+       drawCircle();
+       drawCircle();
+       drawCircle();
         
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -62,11 +63,7 @@ var init = function (window) {
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
-            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
-            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
-            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
-            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
-            game.checkCirclePosition( /* Your Bracket Notation HERE */ );
+           
             // TODO 9 : Iterate over the array
            
             
