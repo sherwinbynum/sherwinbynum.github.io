@@ -23,22 +23,23 @@ var init = function (window) {
         var circle;			// variable to hold a single circle when creating circles / iterating
         var circles = [];	// variable to store all circles in one Array
 
-        // TODO 2 : Create a function that draws a circle 
-       
-        // Code to draw a circle
+        // TODO 2 : Create a function that draws a circle
+        drawCircle(parameters);{
+         // Code to draw a circle
         circle = draw.randomCircleInArea(canvas, true, true, '#999', 2);
         physikz.addRandomVelocity(circle, canvas);
         view.addChild(circle);
-        circles.push(circle); 
-
+        circles.push(circle);
+        }
+        
         // TODO 3 / 7 : Call the drawCircle() function 
         
         /* Your Function Calls HERE */
-       drawCircle();
-       drawCircle();
-       drawCircle();
-       drawCircle();
-       drawCircle();
+       drawCircle(1);
+       drawCircle(1);
+       drawCircle(1);
+       drawCircle(1);
+       drawCircle(1);
         
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
