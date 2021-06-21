@@ -37,11 +37,14 @@ var init = function (window) {
         
         /* Your Function Calls HERE */
        
-        drawCircle()
-        drawCircle()
-        drawCircle()
-        drawCircle()
-        drawCircle()
+        var loopsCompleted = 0; 
+while (loopsCompleted < 10) {
+    drawCircle()
+    loopsCompleted++
+}
+for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++) {
+    drawCircle()
+}
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -86,13 +89,13 @@ var init = function (window) {
             if ( circle.x > canvas.width ) {
                 circle.x = 0;     
             } 
-           else if (circle.x > canvas.width) {
+           else if (circle.x < 0 ) {
                 circle.x = 0; 
             }
-            if (circle.y < canvas.height) {
+            if (circle.y > canvas.height ) {
                 circle.y = 0;
             } 
-            else if (circle.y < canvas.height) {
+            else if (circle.y < 0 ) {
                 circle.y = 0;
             }
 
