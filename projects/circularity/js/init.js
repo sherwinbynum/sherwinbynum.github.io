@@ -33,16 +33,16 @@ var init = function (window) {
         circles.push(circle);
         }
         
-        // TODO 3 / 7 : Call the drawCircle() function 
+        // TODO 3 / 8 : Call the drawCircle() function 
         
         /* Your Function Calls HERE */
        
-       drawCircle();
-       drawCircle();
-       drawCircle();
-       drawCircle();
-       drawCircle();
-        
+        drawCircle()
+        drawCircle()
+        drawCircle()
+        drawCircle()
+        drawCircle()
+
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -86,13 +86,13 @@ var init = function (window) {
             if ( circle.x > canvas.width ) {
                 circle.x = 0;     
             } 
-           else if (circle.x < canvas.width) {
+           else if (circle.x > canvas.width) {
                 circle.x = 0; 
             }
-            else if (circle.y > canvas.hieght) {
+            if (circle.y < canvas.height) {
                 circle.y = 0;
             } 
-            else {
+            else if (circle.y < canvas.height) {
                 circle.y = 0;
             }
 
